@@ -27,8 +27,10 @@ An overview of the chronology of tasks involved in the preprocessing steps are a
  
 ## Model Training:
 We use a unique way to generate features from the data. CNNs used to create features from the images that have we have used for training and testing. The convolutional neural networks produce 2048 features. The CNN architecture looks as follows:
+
 ![CNN Architecture](images/model.png)
  
 We then use these features (which is a dataset now) on XGBOOST to predict if the CT scan of the particular patient is cancerous or not.
+
 ![Training Result for the XGBOOST model](images/validation.png)
 
