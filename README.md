@@ -10,7 +10,7 @@ The United States accounts for the loss of approximately 225,000 people each yea
 The competition organizers have provided 2 categories of data sets. The first category is a set of images of the CT scans
 of different patients. The second aspect of the dataset involves a set of labels for the patients. The number of CT scan images
 for every patient is not fixed & hence, the number of the images is different.
-![Example CT Scan][images/img_007_i.png]
+![Example CT Scan](images/img_007_i.png)
 
 Since the data provided by the contributors are DICOM files of patients’ CT scans, it involves complicated pre-processing methods in order to get into the form that is usable to apply deep learning and machine learning methodologies to it.
 An overview of the chronology of tasks involved in the preprocessing steps are as follows:
